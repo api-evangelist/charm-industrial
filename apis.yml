@@ -1,8 +1,18 @@
 aid: charm-industrial
 name: Charm Industrial
-description: Charm Industrial is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Charm Industrial is a carbon removal technology company that permanently
+  sequesters atmospheric CO2 by converting waste biomass (agricultural residues
+  and other plant matter) into a stable, carbon-rich liquid called bio-oil
+  through fast pyrolysis, then injecting that bio-oil into EPA-regulated
+  underground wells where it solidifies and remains stored for millennia. Charm
+  sells verified carbon dioxide removal (CDR) credits to enterprise buyers and
+  publishes a public ledger of delivered tonnage. The company received a $53M
+  advance market commitment from Frontier and is backed by investors including
+  General Catalyst and Lowercarbon Capital. This API Evangelist profile tracks
+  Charm Industrial as a company; the provider publishes a marketing and
+  carbon-purchasing website but no public developer API surface as of this
+  enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/charm-industrial/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +20,59 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://charmindustrial.com/_next/static/media/dark.5466855d.svg
 tags:
 - Company
+- Carbon Removal
+- Climate Tech
+- Carbon Dioxide Removal
+- Bio-oil
+- Pyrolysis
+- Sustainability
+- Sequestration
 apis: []
+common:
+- type: Website
+  url: https://charmindustrial.com/
+- type: Blog
+  url: https://charmindustrial.com/blog
+- type: Support
+  url: https://charmindustrial.com/contact-us
+- type: FAQ
+  url: https://charmindustrial.com/faq
+- type: TermsOfService
+  url: https://charmindustrial.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://charmindustrial.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/charm-industrial
+- type: Twitter
+  url: https://twitter.com/charmindustrial
+- type: YouTube
+  url: https://www.youtube.com/@charmindustrial
+- type: DomainSecurity
+  url: security/charm-industrial-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
